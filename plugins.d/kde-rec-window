@@ -1,0 +1,13 @@
+id kde-rec-window
+group x11/bhotkeys-kde
+label Window recording
+chord Super+Ctrl+r
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Start or stop a window recording. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop RecordWindow

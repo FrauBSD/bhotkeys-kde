@@ -1,0 +1,13 @@
+id kde-power
+group x11/bhotkeys-kde
+label Power profile
+chord Super+b
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Switch power profile. KDE owns the key.
+# kglobalaccel org_kde_powerdevil powerProfile

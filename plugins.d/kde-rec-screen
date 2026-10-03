@@ -1,0 +1,13 @@
+id kde-rec-screen
+group x11/bhotkeys-kde
+label Screen recording
+chord Super+Alt+r
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Start or stop a screen recording. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop RecordScreen

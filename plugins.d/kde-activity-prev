@@ -1,0 +1,13 @@
+id kde-activity-prev
+group x11/bhotkeys-kde
+label Previous activity
+chord Super+Shift+a
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Walk through activities in reverse. KDE owns the key.
+# kglobalaccel plasmashell previous activity

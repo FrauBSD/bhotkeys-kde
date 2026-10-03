@@ -1,0 +1,14 @@
+id kde-shot
+group x11/bhotkeys-kde
+label Spectacle
+chord Print
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Capture the whole screen. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop _launch
+# also Meta+Shift+S

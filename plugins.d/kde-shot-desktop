@@ -1,0 +1,13 @@
+id kde-shot-desktop
+group x11/bhotkeys-kde
+label Entire desktop
+chord Shift+Print
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Capture every screen. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop FullScreenScreenShot

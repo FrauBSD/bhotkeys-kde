@@ -1,0 +1,14 @@
+id kde-emoji
+group x11/bhotkeys-kde
+label Emoji Selector
+chord Super+period
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Open the emoji selector. KDE owns the key.
+# kglobalaccel org.kde.plasma.emojier.desktop _launch
+# also Meta+Ctrl+Alt+Shift+Space

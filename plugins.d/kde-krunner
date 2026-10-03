@@ -1,0 +1,14 @@
+id kde-krunner
+group x11/bhotkeys-kde
+label KRunner
+chord Alt+space
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Open KRunner. KDE owns the key.
+# kglobalaccel org.kde.krunner.desktop _launch
+# also Alt+F2

@@ -1,0 +1,13 @@
+id kde-clipboard-action
+group x11/bhotkeys-kde
+label Clipboard action
+chord Super+Ctrl+x
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Automatic clipboard action. KDE owns the key.
+# kglobalaccel plasmashell clipboard_action

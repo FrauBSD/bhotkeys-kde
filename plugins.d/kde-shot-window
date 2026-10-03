@@ -1,0 +1,13 @@
+id kde-shot-window
+group x11/bhotkeys-kde
+label Active window
+chord Super+Print
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Capture the active window. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop ActiveWindowScreenShot

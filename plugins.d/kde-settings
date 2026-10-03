@@ -1,0 +1,13 @@
+id kde-settings
+group x11/bhotkeys-kde
+label System Settings
+chord Super+i
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Open System Settings. KDE owns the key.
+# kglobalaccel systemsettings.desktop _launch

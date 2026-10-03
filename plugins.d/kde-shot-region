@@ -1,0 +1,13 @@
+id kde-shot-region
+group x11/bhotkeys-kde
+label Rectangular region
+chord Super+Shift+Print
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Capture a rectangular region. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop RectangularRegionScreenShot

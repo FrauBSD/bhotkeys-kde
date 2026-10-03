@@ -1,0 +1,13 @@
+id kde-shot-under
+group x11/bhotkeys-kde
+label Window under cursor
+chord Super+Ctrl+Print
+enabled 0
+enabled 1 kde
+session 0
+session 1 kde
+repeat 0
+greeter 0
+listen 0
+desc Capture the window under the cursor. KDE owns the key.
+# kglobalaccel org.kde.spectacle.desktop WindowUnderCursorScreenShot
