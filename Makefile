@@ -1,10 +1,24 @@
-# bhotkeys-kde: KDE global shortcuts, advertised in the panel.
-# listen 0. KDE owns the key. Shown only when the session is KDE.
-# RUN_DEPENDS bhotkeys.
+############################################################ LICENSE
 #
+# SPDX-License-Identifier: BSD-2-Clause
+#
+# Copyright (c) 2026 Devin Teske <dteske@FreeBSD.org>
+#
+############################################################ IDENT(1)
+#
+# $Title: bhotkeys-kde - KDE panel shortcuts $
+# $Copyright: 2026 Devin Teske. All rights reserved. $
+# $FrauBSD: bhotkeys-kde/Makefile 2026-10-03 21:49:38 -0700 Devin Teske $
+#
+############################################################ PATHS
+
 PREFIX?=	/usr/local
 PLUGDIR?=	${PREFIX}/share/bhotkeys/plugins.d
 
+############################################################ FILES
+
+# listen 0. KDE owns the key. Shown only when the session is KDE.
+# RUN_DEPENDS bhotkeys.
 PLUGINS=	kde-activity-next \
 		kde-activity-prev \
 		kde-clipboard \
@@ -25,6 +39,10 @@ PLUGINS=	kde-activity-next \
 		kde-shot-under \
 		kde-shot-window
 
+############################################################ TARGETS
+
+.PHONY: install
+
 install:
 	mkdir -p ${DESTDIR}${PLUGDIR}
 .for p in ${PLUGINS}
@@ -32,4 +50,6 @@ install:
 		${DESTDIR}${PLUGDIR}/${p}
 .endfor
 
-.PHONY: install
+################################################################################
+# END
+################################################################################
