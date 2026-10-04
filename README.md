@@ -1,3 +1,5 @@
+[//]: # ($FrauBSD: bhotkeys-kde/README.md 2026-10-03 21:50:39 -0700 Devin Teske $)
+
 # bhotkeys-kde
 
 KDE Plasma's stock global shortcuts as rows in the bhotkeys chord
